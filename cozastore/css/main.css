@@ -1,43 +1,3 @@
-/*------------------------------------------------------------------
-Project:  
-Version:  
-Last change:  
-Assigned to:  Le Xuan Bach
-Primary use:  Company
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[LAYOUT]
-
-* body
-  + Header / header
-  + Page Content / .page-content .name-page
-        + Section Layouts / section .name-section
-        ...
-  + Footer / footer
-
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[COLOR CODES]
-
-# Text Color      :  
-# Primary Color 01:  
-# Primary Color 02:   
-# Primary Color 03:  
-
-------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[TYPOGRAPHY]
-
-Body            : 16px/1.6 '', Arial, sans-serif;
-Title           : 18px/1.6 '', Arial, sans-serif;
-Paragrap        : 18px/1.6 '', Arial, sans-serif;
-Input, textarea : 14px/1.6 '', Arial, sans-serif;
--------------------------------------------------------------------*/
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
 
 @font-face {
   font-family: Poppins-Regular;
@@ -118,7 +78,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 
 /*//////////////////////////////////////////////////////////////////
-[ LOADDING ]*/
+[ LOADING ]*/
 .animsition-loading-1 {
   position: absolute;
   top: 50%;
@@ -133,7 +93,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .loader05 {
   width: 56px;
   height: 56px;
-  border: 4px solid #717fe0;
+  border: 4px solid #FFFF6B;
   border-radius: 50%;
   position: relative;
   animation: loader-scale 1s ease-out infinite;
@@ -161,7 +121,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 38px;
   bottom: 0px;
   right: 40px;
-  background-color: #717fe0;
+  background-color: #FEE347;
   opacity: 0.5;
   justify-content: center;
   align-items: center;
@@ -181,7 +141,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 .btn-back-to-top:hover {
   opacity: 1;
-  background-color: #717fe0;
+  background-color: #520b52;
 }
 
 @media (max-width: 575px) {
@@ -211,15 +171,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .header-v2 .container-menu-desktop {
   height: 84px;
 }
-
-.header-v3 .container-menu-desktop {
-  height: auto;
-}
-
-.header-v4 .container-menu-desktop {
-  height: 124px;
-}
-
 
 /*==================================================================
 [ Top bar ]*/
@@ -253,7 +204,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .right-top-bar a:hover {
-  color: #6c7ae0;
+  color: #520b52;
 }
 
 
@@ -265,14 +216,13 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 
-
 /*==================================================================
 [ Menu ]*/
 
 .wrap-menu-desktop {
   position: fixed;
   z-index: 1100;
-  background-color: transparent;
+  background-color: #520b52;
   width: 100%;
   height: 84px;
   top: 40px;
@@ -284,21 +234,11 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   transition: height 0.3s, background-color 0.3s;
 }
 
+/* Couleur de la bannière */
 .header-v2 .wrap-menu-desktop {
-  background-color: #fff;
+  background-color: #520b52;
   top: 0;
 }
-
-.header-v3 .wrap-menu-desktop {
-  background-color: transparent;
-  top: 0;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-}
-
-.header-v4 .wrap-menu-desktop {
-  background-color: #fff;
-}
-
 
 /*---------------------------------------------*/
 .limiter-menu-desktop {
@@ -312,8 +252,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   background-color: transparent;
 }
 
-
-
 /*------------------------------------------------------------------
 [ Logo ]*/
 .logo {
@@ -325,13 +263,13 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   align-items: center;
   height: 65%;
   margin-right: 55px;
+  color: white; /*couleur texte The French Elegance*/
 }
 
 .logo img {
   max-width: 100%;
   max-height: 100%;
 }
-
 
 
 /*------------------------------------------------------------------
@@ -369,7 +307,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .main-menu > li > a {
   font-family: Poppins-Medium;
   font-size: 14px;
-  color: #333;
+  color: #FEE347;
   padding: 5px 0px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -377,9 +315,9 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   -moz-transition: all 0.4s;
 }
 
-.header-v3 .main-menu > li > a {
+/*.header-v3 .main-menu > li > a {
   color: #fff;
-}
+} */
 
 /*---------------------------------------------*/
 .sub-menu {
@@ -440,7 +378,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /*---------------------------------------------*/
 .main-menu > li:hover > a {
   text-decoration: none;
-  color: #6c7ae0;
+  color: #FEE347;
 }
 
 .main-menu > li:hover > .sub-menu {
@@ -458,7 +396,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .sub-menu > li:hover > a {
-  color: #6c7ae0;
+  color: #FEE347;
   text-decoration: none;
 }
 
@@ -505,7 +443,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   min-width: 15px;
   height: 15px;
   padding: 0 3px;
-  background-color: #717fe0;
+  background-color: #FEE347;
 }
 
 /*---------------------------------------------*/
@@ -550,20 +488,22 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   opacity: 1;
 }
 
+/* Bords zoom barre de recherche */
 .wrap-search-header {
   width: 960px;
   max-width: 100%;
   height: 120px;
-  border: 2px solid #e6e6e6;
+  border: 2px solid #520b52;
   background: #fff;
 }
 
 /*---------------------------------------------*/
+/* Carac texte entré zomm barre de recherche */
 .wrap-search-header input {
-  font-family: Poppins-ExtraLight;
+  font-family: Poppins-Regular;
   font-size: 50px;
   line-height: 1.2;
-  color: #333;
+  color: #FEE347;
   
   padding: 0px 30px 0px 0px;
   width: calc(100% - 70px);
@@ -571,15 +511,12 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   background-color: transparent;
 }
 
+/* Bouton loupe zoom barre de recherche */
 .wrap-search-header button {
   font-size: 50px;
-  color: #333;
+  color: #FEE347;
   width: 70px;
   height: 100%;
-}
-
-.wrap-search-header button:hover {
-  color: #6c7ae0;
 }
 
 /*---------------------------------------------*/
@@ -627,18 +564,9 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 70px;
 }
 
-.header-v3 .fix-menu-desktop .wrap-menu-desktop {
-  background-color: #222;
-  border-color: #222;
-}
-
-.header-v4 .fix-menu-desktop.container-menu-desktop {
-  height: 110px;
-}
-
 /*---------------------------------------------*/
 .main-menu > li.active-menu > a {
-  color: #6c7ae0;
+  color: #FEE347;
 }
 
 
@@ -723,6 +651,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 /*==================================================================
 [ Menu mobile ]*/
+
 .menu-mobile {
   width: 100%;
   background-color: white;
@@ -732,7 +661,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .main-menu-m {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #717fe0;
+  background-color: #FEE347;
 }
 
 .main-menu-m > li > a {
@@ -1123,7 +1052,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .rs1-select2 .select2-container--default .select2-selection--single .select2-selection__arrow:hover:after {
-  color: #6c7ae0;
+  color: #FEE347;
 }
 
 
@@ -1155,12 +1084,12 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .rs1-select2 .select2-container .select2-results__option[aria-selected="true"] {
-  background: #6c7ae0;
+  background: #FEE347;
   color: white;
 }
 
 .rs1-select2 .select2-container .select2-results__option--highlighted[aria-selected] {
-  background: #6c7ae0;
+  background: #FEE347;
   color: white;
 }
 
@@ -1263,7 +1192,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .arrow-slick1:hover {
-  color: #7280e0;
+  color: #FEE347;
 }
 
 .next-slick1 {
@@ -1292,7 +1221,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .rs2-slick1 .arrow-slick1:hover {
-  color: #7280e0;
+  color: #FEE347;
 }
 
 .wrap-slick1-dots {
@@ -1737,8 +1666,8 @@ button.mfp-close {
 
 .show-search:hover:after,
 .show-filter:hover:after {
-  background-color: #717fe0;
-  border-color: #717fe0;
+  background-color: #FEE347;
+  border-color: #FEE347;
 }
 
 /*---------------------------------------------*/
@@ -1749,18 +1678,18 @@ button.mfp-close {
 
 /*---------------------------------------------*/
 .filter-link {
-  color: #aaa;
+  color: #520b52;
   border-bottom: 1px solid transparent;
 }
 
 .filter-link:hover {
-  color: #6c7ae0;
-  border-bottom: 1px solid #6c7ae0;
+  color: #520b52;
+  border-bottom: 1px solid #520b52;
 }
 
 .filter-link-active {
-  color: #6c7ae0;
-  border-bottom: 1px solid #6c7ae0;
+  color: #520b52;
+  border-bottom: 1px solid #520b52;
 }
 
 @media (max-width: 767px) {
@@ -2120,21 +2049,22 @@ input.num-product::-webkit-inner-spin-button {
 
 
 /*==================================================================
-    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+   COULEURS TEXTE
 ==================================================================*/
 .cl0 {color: #fff;}
-.cl1 {color: #717fe0;}
-.cl2 {color: #333;}
+.cl1 {color: #FEE347;}
+.cl2 {color: #FEE347;}
 .cl3 {color: #666;}
 .cl4 {color: #999;}
 .cl5 {color: #222;}
-.cl6 {color: #888;}
+.cl6 {color: #aaa;}
 .cl7 {color: #b2b2b2;}
 .cl8 {color: #555;}
 .cl9 {color: #aaa;}
 .cl10 {color: #1d1d1d;}
 .cl11 {color: #f9ba48;}
 .cl12 {color: #ccc;}
+.cl13 {color: #520b52}
 
 /*//////////////////////////////////////////////////////////////////
 [ S-Text 0 - 15 ]*/
@@ -2233,7 +2163,7 @@ input.num-product::-webkit-inner-spin-button {
 
 .stext-116 {
   font-family: Poppins-Regular;
-  font-size: 15px;
+  font-size: 25px;
   line-height: 1.266667;
 }
 
@@ -2244,7 +2174,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 
-/*---------------------------------------------*/
+/* Carac texte pied de page */
 .stext-301 {
   font-family: Montserrat-Bold;
   font-size: 15px;
@@ -2641,9 +2571,9 @@ input.num-product::-webkit-inner-spin-button {
 ==================================================================*/
 .bg-none {background-color: transparent;}
 .bg0 {background-color: #fff;}
-.bg1 {background-color: #717fe0;}
+.bg1 {background-color: #FEE347;}
 .bg2 {background-color: #e6e6e6;}
-.bg3 {background-color: #222;}
+.bg3 {background-color: #520b52;}
 .bg5 {background-color: rgba(0,0,0,0.5);}
 .bg6 {background-color: #f2f2f2;}
 .bg7 {background-color: #333;}
@@ -2787,10 +2717,10 @@ input.num-product::-webkit-inner-spin-button {
 .plh2::-moz-placeholder { color: #333;}
 .plh2:-ms-input-placeholder { color: #333;}
 
-.plh3::-webkit-input-placeholder { color: #555;}
-.plh3:-moz-placeholder { color: #555;}
-.plh3::-moz-placeholder { color: #555;}
-.plh3:-ms-input-placeholder { color: #555;}
+.plh3::-webkit-input-placeholder { color: #520b52;}
+.plh3:-moz-placeholder { color: #520b52;}
+.plh3::-moz-placeholder { color: #520b52;}
+.plh3:-ms-input-placeholder { color: #520b52;}
 
 .plh4::-webkit-input-placeholder { color: #888;}
 .plh4:-moz-placeholder { color: #888;}
@@ -2799,7 +2729,7 @@ input.num-product::-webkit-inner-spin-button {
 
 /*---------------------------------------------*/
 .js-addedwish-detail {
-  color: #6c7ae0;
+  color: #FEE347;
 }
 
 /*---------------------------------------------*/
@@ -2855,7 +2785,7 @@ input.num-product::-webkit-inner-spin-button {
   position: absolute;
   width: 0%;
   height: 2px;
-  background-color: #6774d5;
+  background-color: #FEE347;
   left: 0;
   bottom: -2px;
 }
@@ -3051,8 +2981,8 @@ input.num-product::-webkit-inner-spin-button {
 
 .hov-cl0:hover {color: #fff;}
 .hov-bg0:hover {background-color: #fff;}
-.hov-cl1:hover {color: #717fe0;}
-.hov-bg1:hover {background-color: #717fe0;}
+.hov-cl1:hover {color: #FEE347;}
+.hov-bg1:hover {background-color: #FEE347;}
 
 /*---------------------------------------------*/
 .hov-img0 {
@@ -3091,13 +3021,13 @@ input.num-product::-webkit-inner-spin-button {
 .hov-btn2:hover {
   border-color: #fff;
   background-color: #fff;
-  color: #717fe0;
+  color: #FEE347;
 }
 
 /*---------------------------------------------*/
 .hov-btn3:hover {
-  border-color: #717fe0;
-  background-color: #717fe0;
+  border-color: #FEE347;
+  background-color: #FEE347;
   color: #fff;
 }
 
@@ -3107,8 +3037,8 @@ input.num-product::-webkit-inner-spin-button {
 
 /*---------------------------------------------*/
 .hov-tag1:hover {
-  color: #717fe0;
-  border-color: #717fe0;
+  color: #FEE347;
+  border-color: #FEE347;
 }
 
 
