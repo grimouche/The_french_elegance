@@ -61,18 +61,11 @@
 						</ul>
 					</div>	
 
-					<!-- Barre de recherche -->
+					<!-- Barre de recherche dans bannière -->
 					<div class="wrap-icon-header flex-w flex-r-m h-full">
 						<div class="flex-c-m h-full p-r-24">
 							<div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 js-show-modal-search">
-								<i class="zmdi zmdi-search"></i>
-							</div>
-						</div>
-                        
-				    <!-- Menu déroulant -->
-						<div class="flex-c-m h-full p-lr-19">
-							<div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 js-show-sidebar">
-								<i class="zmdi zmdi-menu"></i>
+                                <i class="zmdi zmdi-search"><p class="stext-106">   Rechercher</p></i>
 							</div>
 						</div>
 					</div>
@@ -85,7 +78,6 @@
 			<!-- Logo moblie -->		
 			<div class="logo-mobile">
 				<a href="index.html"><img src="images/icons/spray_couleur.png" alt="IMG-LOGO"></a>
-                <h3>The French Elegance</h3>
 			</div>
 
 			<!-- Icon header -->
@@ -96,18 +88,22 @@
 			</div>
 		</div>
 
-		<!-- Modal Search -->
+		<!-- Barre de recherche zoomée -->
 		<div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
 			<div class="container-search-header">
+                
+                <!-- Bouton pour fermer -->
 				<button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
 					<img src="images/icons/icon-close2.png" alt="CLOSE">
 				</button>
-
-				<form class="wrap-search-header flex-w p-l-15">
+                
+                 <!-- Formulaire -->
+				<form name="recherche" class="wrap-search-header flex-w p-l-15">
 					<button class="flex-c-m trans-04">
-						<i class="zmdi zmdi-search"></i>
+						<!--<i class="zmdi zmdi-search"></i>-->
 					</button>
-					<input class="plh3" type="text" name="search" placeholder="Rechercher">
+					<input class="plh3" type="text" name="blabla" placeholder="Rechercher">
+                    <input type="submit" name="confirmer" value="Valider"> 
 				</form>
 			</div>
 		</div>
@@ -157,31 +153,31 @@
 
 							<ul>
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".inf50">
 										inf à 50€
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".inf100">
 										inf à 100€
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".inf150">
 										inf à 150€
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".inf200">
 										inf à 200€
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".inf250">
 										inf à 250€
 									</a>
 								</li>
@@ -195,31 +191,31 @@
 
 							<ul>
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="" class="filter-link stext-106 trans-04" data-filter=".burberry">
 										Burberry
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".chanel">
 										Chanel
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".dior">
 										Dior
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".guerlain">
 										Guerlain
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".lancome">
 										Lancôme
 									</a>
 								</li>
@@ -233,19 +229,19 @@
 
 							<ul>
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".femme">
 										Femme
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".homme">
 										Homme
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".mixte">
 										Mixte
 									</a>
 								</li>
@@ -259,25 +255,25 @@
                             
                             <ul>
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".ELparfum">
 										Parfum
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".ELmaquillage">
 										Maquillage
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".ELsoins">
 										Soins
 									</a>
 								</li>
                                 
                                 <li class="p-b-6">
-									<a href="#" class="filter-link stext-106 trans-04">
+									<a href="#" class="filter-link stext-106 trans-04" data-filter=".ELparapharmacie">
 										Parapharmacie
 									</a>
 								</li>
@@ -294,14 +290,10 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="images/london.jpg" alt="IMG-PRODUCT">
-
-							<a href="#" class="block2-btn flex-c-m stext-103 cl13 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-								Aperçu
-							</a>
+							<a href="product-detail-london-burberry.html" class="stext-104 cl13 hov-cl1 trans-04 js-name-b2 p-b-6">	<img src="images/london.jpg" alt="IMG-PRODUCT"></a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14 burberry">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail-london-burberry.html" class="stext-104 cl13 hov-cl1 trans-04 js-name-b2 p-b-6">
 									London Burberry
@@ -320,11 +312,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="images/bleu_chanel.png" alt="IMG-PRODUCT">
-
-							<a href="#" class="block2-btn flex-c-m stext-103 cl13 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-								Aperçu
-							</a>
+							<a href="product-detail-bleu-chanel.html" class="stext-104 cl13 hov-cl1 trans-04 js-name-b2 p-b-6"><img src="images/bleu_chanel.png" alt="IMG-PRODUCT"></a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
@@ -346,11 +334,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="images/coco_chanel.jpg" alt="IMG-PRODUCT">
-
-							<a href="#" class="block2-btn flex-c-m stext-103 cl13 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-								Aperçu
-							</a>
+							<a href="product-detail-coco-mademoiselle.html" class="stext-104 cl13 hov-cl1 trans-04 js-name-b2 p-b-6"><img src="images/coco_chanel.jpg" alt="IMG-PRODUCT"></a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
@@ -371,11 +355,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="images/sauvage.jpg" alt="IMG-PRODUCT">
-
-							<a href="#" class="block2-btn flex-c-m stext-103 cl13 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-								Aperçu
-							</a>
+							<a href="product-detail-sauvage-dior.html" class="stext-104 cl13 hov-cl1 trans-04 js-name-b2 p-b-6"><img src="images/sauvage.jpg" alt="IMG-PRODUCT"></a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
@@ -397,11 +377,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="images/mascara_lancome.jpg" alt="IMG-PRODUCT">
-
-							<a href="#" class="block2-btn flex-c-m stext-103 cl13 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-								Aperçu
-							</a>
+							<a href="product-detail-mascara-hypnose-lancome.html" class="stext-104 cl13 hov-cl1 trans-04 js-name-b2 p-b-6"><img src="images/mascara_lancome.jpg" alt="IMG-PRODUCT"></a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
@@ -422,11 +398,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="images/liner_lancome.jpg" alt="IMG-PRODUCT">
-
-							<a href="#" class="block2-btn flex-c-m stext-103 cl13 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-								Aperçu
-							</a>
+							<a href="product-detail-liner-plume-lancome.html" class="stext-104 cl13 hov-cl1 trans-04 js-name-b2 p-b-6"><img src="images/liner_lancome.jpg" alt="IMG-PRODUCT"></a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
@@ -448,11 +420,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="images/abeille_royale_guerlain.jpg" alt="IMG-PRODUCT">
-
-							<a href="#" class="block2-btn flex-c-m stext-103 cl13 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-								Aperçu
-							</a>
+							<a href="product-detail-abeille-royale-guerlain.html" class="stext-104 cl13 hov-cl1 trans-04 js-name-b2 p-b-6"><img src="images/abeille_royale_guerlain.jpg" alt="IMG-PRODUCT"></a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
@@ -473,11 +441,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="images/abeille_royale_doubler_guerlain.jpg" alt="IMG-PRODUCT">
-
-							<a href="#" class="block2-btn flex-c-m stext-103 cl13 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-								Aperçu
-							</a>
+							<a href="product-detail-abeille-royale-double-r-guerlain.html" class="stext-104 cl13 hov-cl1 trans-04 js-name-b2 p-b-6"><img src="images/abeille_royale_doubler_guerlain.jpg" alt="IMG-PRODUCT"></a>
 						</div>
 
 						<div class="block2-txt flex-w flex-t p-t-14">
@@ -674,6 +638,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+
+<!--===============================================================================================-->
+    <script type="text/javascript" src="barre-recherche.js"></script>
 
 </body>
 </html>
