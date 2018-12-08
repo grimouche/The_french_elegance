@@ -120,7 +120,6 @@
     <!-- Connexion -->
         <div class="container">
         <div class="card card-container">
-            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
             <img id="profile-img" class="profile-img-card" src="images/icons/spray_couleur.png" />
             <p id="profile-name" class="profile-name-card"></p>
             <form class="form-signin">
@@ -273,20 +272,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				$(this).off('click');
 			});
 		});
- 
 		$('.js-addwish-detail').each(function(){
 			var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
 			$(this).on('click', function(){
-			$(this).on('click', function(){
 				swal(nameProduct, "is added to wishlist !", "success");
-
-
 				$(this).addClass('js-addedwish-detail');
 				$(this).off('click');
 			});
-
+		});
 		/*---------------------------------------------*/
-
 		$('.js-addcart-detail').each(function(){
 			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
 			$(this).on('click', function(){
