@@ -654,14 +654,14 @@
 
 .menu-mobile {
   width: 100%;
-  background-color: white;
+  background-color: #520b52;
   display: none;
 }
 
 .main-menu-m {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #FEE347;
+  background-color: #520b52;
 }
 
 .main-menu-m > li > a {
