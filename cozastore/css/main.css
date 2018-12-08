@@ -2766,7 +2766,7 @@ input.num-product::-webkit-inner-spin-button {
 /*---------------------------------------------*/
 .how-active1 {
   color: #333;
-  border-color: #797979;
+  border-color: #520b52;
 }
 
 
@@ -3014,7 +3014,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .hov-btn1:hover i {
-  color: #fff;
+  color: #FEE347;
 }
 
 /*---------------------------------------------*/
@@ -3071,7 +3071,7 @@ input.num-product::-webkit-inner-spin-button {
 /*---------------------------------------------*/
 .hov1:hover {
   color: #333;
-  border-color: #797979;
+  border-color: #520b52;
 }
 
 /*---------------------------------------------*/
