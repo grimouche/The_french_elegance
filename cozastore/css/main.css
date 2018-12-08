@@ -1457,18 +1457,6 @@
   transition: all 0.4s;
 }
 
-button.mfp-arrow-right {
-  background-image: url(../images/icons/icon-next.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-button.mfp-arrow-left {
-  background-image: url(../images/icons/icon-prev.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
 button.mfp-close {
   width: 75px !important;
   height: 58px !important;
@@ -3259,4 +3247,23 @@ input.num-product::-webkit-inner-spin-button {
     padding: 20px;
   }
 
+}
+
+a:link {
+  color: #520b52;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #520b52;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #FEE347;
+  background-color: transparent;
+}
+a:active {
+  color: #520b52;
+  background-color: transparent;
 }
