@@ -2720,7 +2720,7 @@ input.num-product::-webkit-inner-spin-button {
   color: #FEE347;
 }
 
-/*---------------------------------------------*/
+/***** Info bulle => le moins cher ******/
 .label1 {
   position: relative;
 }
