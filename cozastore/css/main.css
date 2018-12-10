@@ -3406,18 +3406,18 @@ a:active {
 
 /******Filtres *******/
 
-.container {
+/*.container {
   overflow: hidden;
-}
+}*/
 
 .filterDiv {
-  float: left;
+  /*float: left;
   background-color: #2196F3;
   color: #ffffff;
   width: 100px;
   line-height: 100px;
   text-align: center;
-  margin: 2px;
+  margin: 2px;*/
   display: none; /* Hidden by default */
 }
 
@@ -3426,7 +3426,7 @@ a:active {
   display: block;
 }
 
-/* Style the buttons */
+/* Style the buttons 
 .btn {
   border: none;
   outline: none;
@@ -3435,15 +3435,15 @@ a:active {
   cursor: pointer;
 }
 
-/* Add a light grey background on mouse-over */
+/* Add a light grey background on mouse-over 
 .btn:hover {
   background-color: #ddd;
 }
 
-/* Add a dark background to the active button */
+/* Add a dark background to the active button 
 .btn.active {
   background-color: #666;
   color: white;
-}
+}*/
 
 /*****************Fin filtres******/
