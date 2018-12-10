@@ -4,7 +4,7 @@
 	<title>The French Elegance</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Icône navigation -->	
+<!-- Icône navigateur -->	
 	<link rel="icon" type="image/png" href="images/icons/spray_couleur.png"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -39,10 +39,11 @@
 	
 	<!-- Header -->
 	<header class="header-v2">
+        
 		<!-- Header desktop -->
 		<div class="container-menu-desktop trans-03">
-
 			<div class="wrap-menu-desktop">
+                
 				<nav class="limiter-menu-desktop p-l-45">
 					
 					<!-- Logo desktop -->		
@@ -55,19 +56,20 @@
 					<div class="menu-desktop">
 						<ul class="main-menu">
 							<li class="active-menu">
-								<a href="">Site de conciergerie professionnel pour cosmétiques</a>
+								<a href="index.html">Site de conciergerie professionnel pour cosmétiques</a>
 							</li>
 						</ul>
 					</div>	
 
-					<!-- Barre de recherche -->
+					<!-- Barre de recherche dans bannière -->
 					<div class="wrap-icon-header flex-w flex-r-m h-full">
 						<div class="flex-c-m h-full p-r-24">
 							<div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 js-show-modal-search">
-								 <i class="zmdi zmdi-search"><p class="stext-106">   Rechercher</p></i>
+                                <i class="zmdi zmdi-search"><p class="stext-106">Rechercher</p>
+                                </i>
 							</div>
 						</div>
-					</div>
+					</div> 
 				</nav>
 			</div>	
 		</div>
@@ -87,166 +89,68 @@
 			</div>
 		</div>
 
-
-		<!-- Menu Mobile -->
-		<div class="menu-mobile">
-			<ul class="main-menu-m">
-				<li>
-					<a href="">Site de conciergerie professionnel cosmétiques</a>
-				</li>
-			</ul>
-		</div>
-
-		<!-- Modal Search -->
+		<!-- Barre de recherche zoomée -->
 		<div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
 			<div class="container-search-header">
+                
+                <!-- Bouton pour fermer -->
 				<button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
 					<img src="images/icons/icon-close2.png" alt="CLOSE">
 				</button>
 
-				<form class="wrap-search-header flex-w p-l-15">
+                 <!-- Formulaire --> 
+				<form name="recherche" class="wrap-search-header flex-w p-l-15" onSubmit="rechercherProduit()">
 					<button class="flex-c-m trans-04">
 						<i class="zmdi zmdi-search"></i>
 					</button>
-					<input class="plh3" type="text" name="search" placeholder="Rechercher">
+					<input class="plh3" type="text" name="blabla" placeholder="Rechercher">
 				</form>
 			</div>
 		</div>
 	</header>
-    
-    <!-- Barre de sélection -->
-    <div class="bg0 m-t-23 p-b-140">
-        <div class="container">
-            <div class="flex-w flex-sb-m p-b-52">
+	        
+    <!-- Title page -->
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92">
+		<h2 class="ltext-105 cl13 txt-center">
+			A propos
+		</h2>
+	</section>	
 
-				<div class="flex-w flex-c-m m-tb-10">
-					<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4 js-show-filter">
-						<i class="icon-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-filter-list"></i>
-						<i class="cl13 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
-				            <a href="index.html">Page d'accueil</a>
+
+	<!-- Content page -->
+	<section class="bg0 p-t-75 p-b-120">
+		<div class="container">
+			<div class="row p-b-148">
+				<div class="col-md-7 col-lg-8">
+					<div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md">
+						<h3 class="mtext-111 cl2 p-b-16">
+							L'histoire de The French Elegance
+						</h3>
+
+						<p class="stext-113 cl6 p-b-26">
+							The French Elegance est un site de conciergerie pour cosmétiques. Il vous permet de comparer le prix de tout type de cosmétiques.
+						</p>
+
+						<p class="stext-113 cl6 p-b-26">
+							Donec gravida lorem elit, quis condimentum ex semper sit amet. Fusce eget ligula magna. Aliquam aliquam imperdiet sodales. Ut fringilla turpis in vehicula vehicula. Pellentesque congue ac orci ut gravida. Aliquam erat volutpat. Donec iaculis lectus a arcu facilisis, eu sodales lectus sagittis. Etiam pellentesque, magna vel dictum rutrum, neque justo eleifend elit, vel tincidunt erat arcu ut sem. Sed rutrum, turpis ut commodo efficitur, quam velit convallis ipsum, et maximus enim ligula ac ligula. 
+						</p>
+
+						<p class="stext-113 cl6 p-b-26">
+							Si vous avez des questions, n'hésitez pas à nous contacter par mail ou sur les réseaux sociaux.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-11 col-md-5 col-lg-4 m-lr-auto">
+					<div class="how-bor1">
+						<div class="hov-img0">
+							<img src="images/about-01.jpg" alt="IMG">
+						</div>
 					</div>
 				</div>
 			</div>
-        </div>
-        
-        
-        <!-- Product Detail -->
-        <section class="sec-product-detail bg0 p-t-65 p-b-60">
-            <div class="container">
-                <div class="row">
-                    <div class="item-slick3">
-                        <div class="wrap-pic-w pos-relative">
-                            <img src="images/abeille_royale_guerlain.jpg" alt="IMG-PRODUCT">
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-5 p-b-30">
-                        <div class="p-r-50 p-t-5 p-lr-0-lg">
-                            <h4 class="mtext-105 cl13 js-name-detail p-b-14">
-                                Abeille Royale Guerlain
-                            </h4>
-
-                            <span class="mtext-106 cl13">
-                                <div class="container">
-                                    <table class="table">
-                                        <thead class="thead-dark">
-                                          <tr>
-                                            <th>Sites</th>
-                                            <th>Contenance</th>
-                                            <th>Type</th>
-                                            <th>Prix</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                              <td><p><a href="https://www.sephora.fr/p/abeille-royale---huile-en-eau-jeunesse-P3036005.html"><u>Sephora</u></a></p></td>
-                                            <td>15 ml</td>
-                                            <td>Huile-en-eau-jeunesse</td>
-                                            <td  class="label1" data-label1="le - cher">48,99€</td>
-                                          </tr>
-                                          <tr>
-                                              <td><p><a href="https://www.marionnaud.fr/soin-visage/anti-rides-et-anti-age/soin-de-jour/abeille-royale-huile-en-eau-jeunesse-guerlain/p/BP_101241170"><u>Marionnaud</u></a></p></td>
-                                            <td>15 ml</td>
-                                            <td>Huile-en-eau-jeunesse</td>
-                                            <td>49,99€</td>
-                                          </tr>
-                                          <tr>
-                                              <td><p><a href="https://www.nocibe.fr/guerlain-abeille-royale-huile_en_eau-jeunesse-p-218367"><u>Nocibé</u></a></p></td>
-                                            <td>15 ml</td>
-                                            <td>Huile-en-eau-jeunesse</td>
-                                            <td>50,50€</td>
-                                          </tr>
-                                            <tr>
-                                                <td><p><a href="https://www.sephora.fr/p/abeille-royale---huile-en-eau-jeunesse-P3036005.html"><u>Sephora</u></a></p></td>
-                                            <td>30 ml</td>
-                                            <td>Huile-en-eau-jeunesse</td>
-                                            <td>87,99€</td>
-                                          </tr>
-                                            <tr>
-                                                <td><p><a href="https://www.marionnaud.fr/soin-visage/anti-rides-et-anti-age/soin-de-jour/abeille-royale-huile-en-eau-jeunesse-guerlain/p/BP_101241170"><u>Marionnaud</u></a></p></td>
-                                            <td>30 ml</td>
-                                            <td>Huile-en-eau-jeunesse</td>
-                                            <td>88,99€</td>
-                                          </tr>
-                                            <tr>
-                                                <td><p><a href="https://www.nocibe.fr/guerlain-abeille-royale-huile_en_eau-jeunesse-p-218367"><u>Nocibé</u></a></p></td>
-                                            <td>30 ml</td>
-                                            <td>Huile-en-eau-jeunesse</td>
-                                            <td>90,50€</td>
-                                          </tr>
-                                            <tr>
-                                                <td><p><a href="https://www.sephora.fr/p/abeille-royale---huile-en-eau-jeunesse-P3036005.html"><u>Sephora</u></a></p></td>
-                                            <td>50 ml</td>
-                                            <td>Huile-en-eau-jeunesse</td>
-                                            <td>126,50€</td>
-                                          </tr>
-                                            <tr>
-                                                <td><p><a href="https://www.marionnaud.fr/soin-visage/anti-rides-et-anti-age/soin-de-jour/abeille-royale-huile-en-eau-jeunesse-guerlain/p/BP_101241170"><u>Marionnaud</u></a></p></td>
-                                            <td>50 ml</td>
-                                            <td>Huile-en-eau-jeunesse</td>
-                                            <td>127,99€</td>
-                                          </tr>
-                                            <tr>
-                                                <td><p><a href="https://www.nocibe.fr/guerlain-abeille-royale-huile_en_eau-jeunesse-p-218367"><u>Nocibé</u></a></p></td>
-                                            <td>50 ml</td>
-                                            <td>Huile-en-eau-jeunesse</td>
-                                            <td>131,00€</td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </div>
-                            </span>
-
-                            <!-- Quantité -->
-                            <div class="p-t-33">
-                                <div class="flex-w flex-r-m p-b-10">
-                                     
-                                    <div class="size-204 flex-w flex-m respon6-next">
-                                        <div class="wrap-num-product flex-w m-r-20 m-tb-10">
-                                            <div class="btn-num-product-down cl13 hov-btn3 trans-04 flex-c-m">
-                                                <i class="fs-16 zmdi zmdi-minus"></i>
-                                            </div>
-
-                                            <input class="mtext-104 cl13 txt-center num-product" type="number" name="num-product" value="1">
-
-                                            <div class="btn-num-product-up cl13 hov-btn3 trans-04 flex-c-m">
-                                                <i class="fs-16 zmdi zmdi-plus"></i>
-                                            </div>
-                                        </div>
-
-                                        <button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
-                                            Ajouter
-                                        </button>
-                                    </div>
-                                </div>	
-                            </div>						
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-   </div>		
-
+		</div>
+	</section>	
 	
 
 	<!-- Footer -->
@@ -375,12 +279,33 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			e.preventDefault();
 		});
 
+		$('.js-addwish-b2').each(function(){
+			var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to wishlist !", "success");
+
+				$(this).addClass('js-addedwish-b2');
+				$(this).off('click');
+			});
+		});
+
+		$('.js-addwish-detail').each(function(){
+			var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to wishlist !", "success");
+
+				$(this).addClass('js-addedwish-detail');
+				$(this).off('click');
+			});
+		});
+
 		/*---------------------------------------------*/
 
 		$('.js-addcart-detail').each(function(){
 			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
 			$(this).on('click', function(){
-				swal(nameProduct, "est ajouté à la commande", "success");
+				swal(nameProduct, "is added to cart !", "success");
 			});
 		});
 	
@@ -404,6 +329,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+
+<!--===============================================================================================-->
+    <script type="text/javascript" src="barre-recherche.js"></script>
 
 </body>
 </html>

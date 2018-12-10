@@ -3289,6 +3289,20 @@ a:active {
   text-decoration: none;
 }
 
+/*********** Link apropos **********/
+
+.apropos:link {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.apropos:visited {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 /*-----Pour la connexion---------------------------------------*/
 
 .card-container.card {
