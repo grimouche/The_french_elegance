@@ -3426,24 +3426,40 @@ a:active {
   display: block;
 }
 
-/* Style the buttons 
-.btn {
+/* Style the buttons */
+.btnn {
   border: none;
   outline: none;
+  color: #520b52;
   padding: 12px 16px;
   background-color: #f1f1f1;
   cursor: pointer;
 }
+/*
+.filter-link {
+  color: #520b52;
+  border-bottom: 1px solid transparent;
+}
 
-/* Add a light grey background on mouse-over 
-.btn:hover {
+.filter-link:hover {
+  color: #520b52;
+  border-bottom: 1px solid #520b52;
+}
+
+.filter-link-active {
+  color: #520b52;
+  border-bottom: 1px solid #520b52;
+}
+
+/* Add a light grey background on mouse-over */
+.btnn:hover {
   background-color: #ddd;
 }
 
-/* Add a dark background to the active button 
-.btn.active {
+/* Add a dark background to the active button */
+.btnn-filtre.active {
   background-color: #666;
   color: white;
-}*/
+}
 
 /*****************Fin filtres******/
